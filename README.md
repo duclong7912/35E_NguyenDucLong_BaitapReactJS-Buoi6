@@ -6,7 +6,7 @@ This project is powered by bootstrap, react-toastify [toastify](https://www.npmj
 
 In the project directory, you can run:
 
-
+### `npm i`
 
 ### `npm start`
 
