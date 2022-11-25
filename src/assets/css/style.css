@@ -1,0 +1,116 @@
+body {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.wrapper{
+    width: 85%;
+    margin: auto
+}
+
+form {
+    box-shadow: 0 0 30px 0 #f08141;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form input {
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.form input#id[disabled]:hover {
+    cursor: no-drop;
+}
+
+.form label {
+    font-weight: 600;
+}
+.form .error {
+    font-weight: 500;
+}
+.btnSubmit {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FBAB7E 0%, #F7CE68 51%, #FBAB7E 100%);
+    background-size: 200%;
+    box-shadow: 0 0 10px 0 #f08141;
+    transition: all .5s;
+    font-weight: 600;
+    margin: auto;
+}
+.btnSubmit:hover, .search input[type='text']:hover {
+    background-position: right center;
+}
+.btnSubmit[disabled]:hover {
+    background-position: unset;
+    cursor: no-drop;
+}
+.search input {
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FBAB7E 0%, #F7CE68 51%, #FBAB7E 100%);
+    background-size: 200%;
+    box-shadow: 0 0 30px 0 #f08141;
+    transition: all .5s;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    box-shadow: 0 0 30px 0 #f08141;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.table thead th {
+    border-top: unset;
+    border-bottom: 2px solid black;
+}
+
+.table tbody td {
+    border-top: 1px solid black;
+    font-weight: 500;
+}
+
+.table tbody .delete, .table tbody .edit {
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.table tbody .delete:hover{
+    color: rgb(235, 72, 72);
+}
+
+.table tbody .edit:hover{
+    color: #f08141;
+}
+
+form.modal-edit {
+    box-shadow: unset;
+    margin-top: unset !important;
+}
+
+.modal-dialog{
+    max-width: 85%;
+    margin: 100px auto;
+}
+.modal-content{
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-color: unset;
+}
+
+.modal-header, .modal-body, .modal-footer{
+    border: unset;
+
+}
+
