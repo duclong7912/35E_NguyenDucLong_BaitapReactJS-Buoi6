@@ -1,6 +1,6 @@
 # React Form with Create React App
 
-This project is powered by bootstrap, react-toastify [toastify](https://www.npmjs.com/package/react-toastify).
+This project is powered by bootstrap, react-[toastify](https://www.npmjs.com/package/react-toastify).
 
 ## Available Scripts
 
